@@ -1,0 +1,118 @@
+.card-header{
+  background-color: #EEEDE7;
+}
+.card-body{
+  overflow:auto;
+}
+.card-footer{
+  background-color: #EEEDE7;
+}
+#search_notice
+{
+  position: center;
+  width: 95%;
+  margin: 3px;
+}
+.icon-search
+{
+  margin-right: 3px;
+}
+.text-center{
+  position: center;
+}
+.type-section{
+  background-color: #E7D2CC;
+  color: white;
+}
+.type-section h4{
+  color: #868B8E;
+}
+.icon-type{
+  padding-top: 15px;
+}
+.buttonlink{
+  color: #868B8E;
+}
+.buttonlink:hover{
+  color: #B9B7BD;
+}
+.del{
+  color: #E7D2CC;
+}
+.buttonlink-del:hover{
+  color: #B9B7BD;
+}
+.typelist{
+  width:100%;
+  margin: 10px;
+  overflow: hidden;
+}
+.typelist li a {
+	display: block;
+	float: left;
+	height: 30px;
+	background: #868B8E;
+  border-radius: 10px;
+	text-align: center;
+  padding: 4px 16px;
+	position: relative;
+	margin: 5px 0px 5px 10px;
+	font-size: 20px;
+	text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+.editedlist{
+  color: white;
+  background-color: #868B8E;
+}
+.table{
+  border-bottom: 10px;
+}
+.table td{
+  text-align: center;
+  height: 50px;
+  border-bottom: 3px solid #dee2e6;
+   empty-cells: hide;
+}
+.table td a h6{
+  font-size: 20px;
+  margin: 3px;
+}
+.btntools{
+  overflow:auto;
+}
+.btntools .btn{
+  background-color: #868B8E;
+  color: #EEEDE7;
+}
+.title-not{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+/* .tablenotices{
+} */
+.texteditor{
+  min-height:250px;
+  min-width:250px;
+  background-size:contain;
+  margin-top:-7px;
+  overflow:auto;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  display:block;
+}
+.saveandnot{
+  max-width: 300px;
+  max-height: 100px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #B9B7BD;
+}
+.saveandnot .btn{
+  margin: 2px;
+}
